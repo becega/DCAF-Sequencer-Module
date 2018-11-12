@@ -14,3 +14,8 @@
 # Metadata
 *.aliases
 *.lvlps
+
+#Office
+~$*.pptx
+~$*.docx
+~*.tmp
