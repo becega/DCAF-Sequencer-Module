@@ -116,9 +116,13 @@
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Step.lvclass"/>
+			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step Config/Step Config.lvclass"/>
 			<Item Name="Wait Step.lvclass" Type="LVClass" URL="../classes/Wait Step/Wait Step.lvclass"/>
+			<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../classes/Wait Step Config/Wait Step Config.lvclass"/>
 			<Item Name="Update Tag.lvclass" Type="LVClass" URL="../classes/Update Tag Step/Update Tag.lvclass"/>
+			<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../classes/Update Tag Step Config/Update Tag Configuration/Update Tag Config.lvclass"/>
 			<Item Name="Sequence.lvclass" Type="LVClass" URL="../classes/Sequence/Sequence.lvclass"/>
+			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence Config/Sequence Config.lvclass"/>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
