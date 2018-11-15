@@ -78,4 +78,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="Initialize Sequences.vi" Type="VI" URL="../Initialize Sequences.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;[!!!!#1!%!!!!,E"Q!"Y!!")15W6R&gt;76O9W5O&lt;(:D&lt;'&amp;T=Q!!%&amp;.F=86F&lt;G.F,GRW9WRB=X-!!"*!1!!"`````Q!""5&amp;S=G&amp;Z!#:!=!!?!!!6%V2#43"D;'&amp;O&lt;G6M,GRW9WRB=X-!"W.I97ZO:7Q!&amp;E"!!!(`````!!-)9WBB&lt;GZF&lt;(-!!#R!=!!?!!!:&amp;V.F=86F&lt;G.F)%.P&lt;G:J:SZM&gt;G.M98.T!!B4:8&amp;V:7ZD:1!!3A$R!!!!!!!!!!)G5W6R&gt;76O9W6S)%VP:(6M:3"D&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-)4'FO:3ZD&gt;'Q!%E"1!!%!"12-;7ZF!!!I1%!!!@````]!"BJ$&gt;8.U&lt;WVJ?G5[5(*P='6S&gt;'FF=TJ-;7ZF=Q!!6!$Q!!Q!!!!!!!!!!A!!!!!!!!!!!!!!!!!%!!=$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!AA!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 </LVClass>
