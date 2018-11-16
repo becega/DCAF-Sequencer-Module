@@ -27,5 +27,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
 		<Item Name="LED Sequence.vi" Type="VI" URL="../LED Sequence.vi"/>
+		<Item Name="2 LED Parallel Sequence.vi" Type="VI" URL="../2 LED Parallel Sequence.vi"/>
+		<Item Name="2 LED Serial Sequence.vi" Type="VI" URL="../2 LED Serial Sequence.vi"/>
 	</Item>
 </Library>
