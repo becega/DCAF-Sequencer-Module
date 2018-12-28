@@ -113,9 +113,9 @@
 				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:To and From CSV Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">235E8A80-1F55-0DBE-E75F-199100346D19</Property>
 			</Item>
-			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step Config/Step Config.lvclass"/>
 		</Item>
 		<Item Name="Classes" Type="Folder">
+			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step Config/Step Config.lvclass"/>
 			<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Step.lvclass"/>
 			<Item Name="Wait Step.lvclass" Type="LVClass" URL="../classes/Wait Step/Wait Step.lvclass"/>
 			<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../classes/Wait Step Config/Wait Step Config.lvclass"/>
