@@ -29,5 +29,6 @@
 		<Item Name="LED Sequence.vi" Type="VI" URL="../LED Sequence.vi"/>
 		<Item Name="2 LED Parallel Sequence.vi" Type="VI" URL="../2 LED Parallel Sequence.vi"/>
 		<Item Name="2 LED Serial Sequence.vi" Type="VI" URL="../2 LED Serial Sequence.vi"/>
+		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
 	</Item>
 </Library>

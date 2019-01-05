@@ -125,6 +125,8 @@
 			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence Config/Sequence Config.lvclass"/>
 			<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../classes/Paralle Step Config/Parallel Step Config.lvclass"/>
 			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../classes/Parallel Step/Parallel Step.lvclass"/>
+			<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step Config/Conditional Jump Step Config.lvclass"/>
+			<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step/Conditional Jump Step.lvclass"/>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
