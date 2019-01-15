@@ -85,13 +85,13 @@
 				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:config crosslink test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D267E97F-C39C-FD34-24E1-9B307B7DFB4F</Property>
 			</Item>
-			<Item Name="Duplicate Name Error Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/Duplicate Name Error Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:Duplicate Name Error Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">8BB3F4AA-F262-41B9-C866-CAF22A94B282</Property>
-			</Item>
 			<Item Name="get channels test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/get channels test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:get channels test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D02ABD81-38C7-3996-6E16-825BB10D9B49</Property>
+			</Item>
+			<Item Name="Duplicate Name Error Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/Duplicate Name Error Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:Duplicate Name Error Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">8BB3F4AA-F262-41B9-C866-CAF22A94B282</Property>
 			</Item>
 			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/init runtime test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:init runtime test.vi</Property>
@@ -132,6 +132,7 @@
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
 		<Item Name="Sequencer Module configuration.lvclass" Type="LVClass" URL="../module/configuration/Sequencer Module configuration.lvclass"/>
 		<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../module/execution/Sequencer Module runtime.lvclass"/>
+		<Item Name="UI.vi" Type="VI" URL="../testing/UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
