@@ -9,6 +9,7 @@
 
 </Property>
 	<Item Name="Manual" Type="Folder">
+		<Item Name="Host Main.vi" Type="VI" URL="../Runtime/Host Main.vi"/>
 		<Item Name="Runtime Test.vi" Type="VI" URL="../Runtime Test.vi"/>
 		<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 	</Item>
@@ -30,5 +31,7 @@
 		<Item Name="2 LED Parallel Sequence.vi" Type="VI" URL="../2 LED Parallel Sequence.vi"/>
 		<Item Name="2 LED Serial Sequence.vi" Type="VI" URL="../2 LED Serial Sequence.vi"/>
 		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
+		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
+		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
 	</Item>
 </Library>
