@@ -127,11 +127,15 @@
 			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../classes/Parallel Step/Parallel Step.lvclass"/>
 			<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step Config/Conditional Jump Step Config.lvclass"/>
 			<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step/Conditional Jump Step.lvclass"/>
+			<Item Name="Counter Config.lvclass" Type="LVClass" URL="../classes/Counter Config/Counter Config.lvclass"/>
+			<Item Name="Counter.lvclass" Type="LVClass" URL="../classes/Counter/Counter.lvclass"/>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
 		<Item Name="Sequencer Module configuration.lvclass" Type="LVClass" URL="../module/configuration/Sequencer Module configuration.lvclass"/>
 		<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../module/execution/Sequencer Module runtime.lvclass"/>
+		<Item Name="Results Indexes.ctl" Type="VI" URL="../testing/Results Indexes.ctl"/>
+		<Item Name="Results.ctl" Type="VI" URL="../testing/Results.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
