@@ -115,29 +115,29 @@
 			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step Config/Step Config.lvclass"/>
-			<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Step.lvclass"/>
-			<Item Name="Sequence.lvclass" Type="LVClass" URL="../classes/Sequence/Sequence.lvclass"/>
-			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence Config/Sequence Config.lvclass"/>
-			<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../classes/Paralle Step Config/Parallel Step Config.lvclass"/>
-			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../classes/Parallel Step/Parallel Step.lvclass"/>
+			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step/Config/Step Config.lvclass"/>
+			<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Execution/Step.lvclass"/>
+			<Item Name="Sequence.lvclass" Type="LVClass" URL="../classes/Sequence/Execution/Sequence.lvclass"/>
+			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence/Config/Sequence Config.lvclass"/>
+			<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
+			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
 			<Item Name="Wait" Type="Folder">
-				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../classes/Wait Step/Wait Step.lvclass"/>
-				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../classes/Wait Step Config/Wait Step Config.lvclass"/>
+				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Execution/Wait Step.lvclass"/>
+				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
 			</Item>
 			<Item Name="Update Tag" Type="Folder">
-				<Item Name="Update Tag.lvclass" Type="LVClass" URL="../classes/Update Tag Step/Update Tag.lvclass"/>
-				<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../classes/Update Tag Step Config/Update Tag Configuration/Update Tag Config.lvclass"/>
+				<Item Name="Update Tag.lvclass" Type="LVClass" URL="../basic steps/Update Tag Step/Execution/Update Tag.lvclass"/>
+				<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../basic steps/Update Tag Step/Config/Update Tag Configuration/Update Tag Config.lvclass"/>
 			</Item>
 			<Item Name="Conditional Jump" Type="Folder">
-				<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step Config/Conditional Jump Step Config.lvclass"/>
-				<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../classes/Conditional Jump Step/Conditional Jump Step.lvclass"/>
+				<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../basic steps/Conditional Jump Step/Config/Conditional Jump Step Config.lvclass"/>
+				<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../basic steps/Conditional Jump Step/Execution/Conditional Jump Step.lvclass"/>
 			</Item>
 			<Item Name="Counter" Type="Folder">
-				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../classes/Counter Config/Counter Config.lvclass"/>
-				<Item Name="Counter.lvclass" Type="LVClass" URL="../classes/Counter/Counter.lvclass"/>
+				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
+				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
@@ -290,6 +290,9 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="StepState.ctl" Type="VI" URL="../classes/Step/StepState.ctl"/>
+			<Item Name="Step State Enum.ctl" Type="VI" URL="../classes/Step/Step State Enum.ctl"/>
+			<Item Name="Step Flow Control.ctl" Type="VI" URL="../classes/Step/Step Flow Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
