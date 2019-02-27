@@ -115,12 +115,19 @@
 			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step/Config/Step Config.lvclass"/>
-			<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Execution/Step.lvclass"/>
-			<Item Name="Sequence.lvclass" Type="LVClass" URL="../classes/Sequence/Execution/Sequence.lvclass"/>
-			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence/Config/Sequence Config.lvclass"/>
-			<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
-			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
+			<Item Name="Sequence" Type="Folder">
+				<Item Name="Sequence.lvclass" Type="LVClass" URL="../classes/Sequence/Execution/Sequence.lvclass"/>
+				<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../classes/Sequence/Config/Sequence Config.lvclass"/>
+				<Item Name="Sequence Tests.lvlib" Type="Library" URL="../classes/Sequence/Tests/Sequence Tests.lvlib"/>
+			</Item>
+			<Item Name="Step" Type="Folder">
+				<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step/Config/Step Config.lvclass"/>
+				<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Execution/Step.lvclass"/>
+			</Item>
+			<Item Name="Parallel Step" Type="Folder">
+				<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
+				<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
 			<Item Name="Wait" Type="Folder">
