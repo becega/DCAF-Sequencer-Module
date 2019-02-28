@@ -132,6 +132,7 @@
 			<Item Name="Parallel Step" Type="Folder">
 				<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
 				<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
+				<Item Name="Parallel Steps Tests.lvlib" Type="Library" URL="../basic steps/Parallel Step/Tests/Parallel Steps Tests.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
