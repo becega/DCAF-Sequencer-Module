@@ -133,16 +133,17 @@
 			<Item Name="Wait" Type="Folder">
 				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Execution/Wait Step.lvclass"/>
 				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
-				<Item Name="Tests.lvlib" Type="Library" URL="../basic steps/Wait Step/Test/Tests.lvlib"/>
+				<Item Name="Wait Tests.lvlib" Type="Library" URL="../basic steps/Wait Step/Test/Wait Tests.lvlib"/>
 			</Item>
 			<Item Name="Update Tag" Type="Folder">
 				<Item Name="Update Tag.lvclass" Type="LVClass" URL="../basic steps/Update Tag Step/Execution/Update Tag.lvclass"/>
 				<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../basic steps/Update Tag Step/Config/Update Tag Configuration/Update Tag Config.lvclass"/>
-				<Item Name="Test.lvlib" Type="Library" URL="../basic steps/Update Tag Step/Test/Test.lvlib"/>
+				<Item Name="Update Tag Tests.lvlib" Type="Library" URL="../basic steps/Update Tag Step/Test/Update Tag Tests.lvlib"/>
 			</Item>
 			<Item Name="Conditional Jump" Type="Folder">
 				<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../basic steps/Conditional Jump Step/Config/Conditional Jump Step Config.lvclass"/>
 				<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../basic steps/Conditional Jump Step/Execution/Conditional Jump Step.lvclass"/>
+				<Item Name="Conditional Jump Tests.lvlib" Type="Library" URL="../basic steps/Conditional Jump Step/Tests/Conditional Jump Tests.lvlib"/>
 			</Item>
 			<Item Name="Counter" Type="Folder">
 				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
