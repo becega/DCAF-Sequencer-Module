@@ -113,6 +113,10 @@
 				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:To and From CSV Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">235E8A80-1F55-0DBE-E75F-199100346D19</Property>
 			</Item>
+			<Item Name="Wait Step To and From String Array Test.lvtest" Type="TestItem" URL="../basic steps/Wait Step/Test/Wait Step To and From String Array Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Wait Tests.lvlib:To and From String Array Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">BFD7A994-EDA4-6EB6-61C5-A1BFA507E688</Property>
+			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Sequence" Type="Folder">
@@ -123,6 +127,7 @@
 			<Item Name="Step" Type="Folder">
 				<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step/Config/Step Config.lvclass"/>
 				<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Execution/Step.lvclass"/>
+				<Item Name="StepTests.lvlib" Type="Library" URL="../classes/Step/Tests/StepTests.lvlib"/>
 			</Item>
 			<Item Name="Parallel Step" Type="Folder">
 				<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
