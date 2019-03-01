@@ -163,6 +163,7 @@
 		<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../module/execution/Sequencer Module runtime.lvclass"/>
 		<Item Name="Results Indexes.ctl" Type="VI" URL="../testing/Results Indexes.ctl"/>
 		<Item Name="Results.ctl" Type="VI" URL="../testing/Results.ctl"/>
+		<Item Name="Step Builder.vi" Type="VI" URL="../classes/Step/Config/Step Builder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
