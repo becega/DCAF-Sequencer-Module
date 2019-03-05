@@ -77,41 +77,33 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Test Framework Tests" Type="Folder">
-			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/Add Remove Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:Add Remove Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">F47CF05D-D4CF-0EFA-16EF-F9B866B42DE2</Property>
+			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../testing/Add Remove Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Add Remove Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">A9712EF4-BEE4-EDC0-E10D-BCAC6A796504</Property>
 			</Item>
-			<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/config crosslink test.lvtest">
-				<Property Name="utf.test.bind" Type="Str"></Property>
-				<Property Name="utf.vector.test.bind" Type="Str">D267E97F-C39C-FD34-24E1-9B307B7DFB4F</Property>
+			<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../testing/config crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:config crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">61800632-26D2-5AD0-3229-E620404D19AB</Property>
 			</Item>
-			<Item Name="get channels test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/get channels test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:get channels test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">D02ABD81-38C7-3996-6E16-825BB10D9B49</Property>
+			<Item Name="Duplicate Name Error Test.lvtest" Type="TestItem" URL="../testing/Duplicate Name Error Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Duplicate Name Error Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">5648F4D9-CAC5-3932-D542-9EF042A9706D</Property>
 			</Item>
-			<Item Name="Duplicate Name Error Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/Duplicate Name Error Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:Duplicate Name Error Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">8BB3F4AA-F262-41B9-C866-CAF22A94B282</Property>
+			<Item Name="get channels test.lvtest" Type="TestItem" URL="../testing/get channels test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:get channels test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">2D68C1E6-7C46-1C96-6031-0849FA6767AF</Property>
 			</Item>
-			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/init runtime test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:init runtime test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">18D070AC-661C-96EB-A9AD-032D9084818D</Property>
+			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../testing/init runtime test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:init runtime test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">91038D54-04FA-6CC8-1D1D-18ED280B289A</Property>
 			</Item>
-			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/modify channel test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:modify channel test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">68F8F195-63C4-F793-122B-27E55AF00820</Property>
+			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:runtime to editor crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">CFF9092F-D2C1-518E-79FD-4BCBFDF44A67</Property>
 			</Item>
-			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/serialization tests.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:serialization tests.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">6FD6D035-D03A-5064-A6E1-6D7C2DA97C44</Property>
-			</Item>
-			<Item Name="To and From Array Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/To and From Array Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:To and From Array Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">3ADED100-2AAB-760F-BC89-63F6F4791E4B</Property>
-			</Item>
-			<Item Name="To and From CSV Test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/To and From CSV Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:To and From CSV Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">235E8A80-1F55-0DBE-E75F-199100346D19</Property>
+			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../testing/serialization tests.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:serialization tests.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">2D9B658B-CDCE-5960-13F6-C899E366DF85</Property>
 			</Item>
 			<Item Name="Wait Step To and From String Array Test.lvtest" Type="TestItem" URL="../basic steps/Wait Step/Test/Wait Step To and From String Array Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Wait Tests.lvlib:To and From String Array Test.vi</Property>
