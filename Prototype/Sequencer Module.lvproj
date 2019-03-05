@@ -82,7 +82,7 @@
 				<Property Name="utf.vector.test.bind" Type="Str">F47CF05D-D4CF-0EFA-16EF-F9B866B42DE2</Property>
 			</Item>
 			<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/config crosslink test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">PID Module tests.lvlib:config crosslink test.vi</Property>
+				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D267E97F-C39C-FD34-24E1-9B307B7DFB4F</Property>
 			</Item>
 			<Item Name="get channels test.lvtest" Type="TestItem" URL="../../../PIDModule/Source/testing/get channels test.lvtest">
