@@ -307,9 +307,6 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="StepState.ctl" Type="VI" URL="../classes/Step/StepState.ctl"/>
-			<Item Name="Step State Enum.ctl" Type="VI" URL="../classes/Step/Step State Enum.ctl"/>
-			<Item Name="Step Flow Control.ctl" Type="VI" URL="../classes/Step/Step Flow Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
