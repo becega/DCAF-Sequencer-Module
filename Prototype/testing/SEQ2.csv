@@ -4,7 +4,4 @@ Update Tag	FALSE	Boolean result 1	Boolean	TRUE
 Wait Step	FALSE	2000											
 Update Tag	FALSE	Boolean result 0	Boolean	FALSE									
 Update Tag	FALSE	Boolean result 1	Boolean	FALSE									
-Wait Step	FALSE	2000											
-													
-													
-													
+Wait Step	FALSE	2000	
