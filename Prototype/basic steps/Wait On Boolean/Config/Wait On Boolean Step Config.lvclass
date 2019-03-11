@@ -18,6 +18,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"1!!!!!2.4&gt;'6Q)%.P&lt;G:J:SZM&gt;G.M98.T5&amp;2)-!!!!$!!!1!)!!!!!!&gt;D&lt;'&amp;T=W6T"&amp;.U:8!'1W^O:GFH%V.U:8!A1W^O:GFH,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Wait On Boolean Step Config.ctl" Type="Class Private Data" URL="Wait On Boolean Step Config.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -65,19 +66,33 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 			</Item>
 		</Item>
-	</Item>
-	<Item Name="Channel" Type="Property Definition">
-		<Property Name="NI.ClassItem.Property.LongName" Type="Str">Channel</Property>
-		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Channel</Property>
-		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-		<Item Name="Write Wait On Boolean Event.vi" Type="VI" URL="../Write Wait On Boolean Event.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!F)V&gt;B;81A4WYA1G^P&lt;'6B&lt;C"4&gt;'6Q)%.P&lt;G:J:SZM&gt;G.M98.T!"^897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*E"Q!"Y!!"546%*.)'.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!(9WBB&lt;GZF&lt;!"/1(!!(A!!*3.897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=O&lt;(:D&lt;'&amp;T=Q!?6W&amp;J&gt;#"0&lt;C"#&lt;W^M:7&amp;O)&amp;.U:8!A1W^O:GFH)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">42467328</Property>
+		<Item Name="Channel" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Channel</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Channel</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Write Wait On Boolean Event.vi" Type="VI" URL="../Write Wait On Boolean Event.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!F)V&gt;B;81A4WYA1G^P&lt;'6B&lt;C"4&gt;'6Q)%.P&lt;G:J:SZM&gt;G.M98.T!"^897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*E"Q!"Y!!"546%*.)'.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!(9WBB&lt;GZF&lt;!"/1(!!(A!!*3.897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=O&lt;(:D&lt;'&amp;T=Q!?6W&amp;J&gt;#"0&lt;C"#&lt;W^M:7&amp;O)&amp;.U:8!A1W^O:GFH)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">42467328</Property>
+			</Item>
+		</Item>
+		<Item Name="Timeout" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Timeout</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Timeout</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Write Timeout.vi" Type="VI" URL="../Write Timeout.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!F)V&gt;B;81A4WYA1G^P&lt;'6B&lt;C"4&gt;'6Q)%.P&lt;G:J:SZM&gt;G.M98.T!"^897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!$!!&gt;5;7VF&lt;X6U!%Z!=!!?!!!F)V&gt;B;81A4WYA1G^P&lt;'6B&lt;C"4&gt;'6Q)%.P&lt;G:J:SZM&gt;G.M98.T!"Z897FU)%^O)%*P&lt;WRF97YA5X2F=#"$&lt;WZG;7=A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
+			</Item>
 		</Item>
 	</Item>
 </LVClass>
