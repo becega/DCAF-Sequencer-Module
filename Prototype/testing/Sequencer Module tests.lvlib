@@ -33,6 +33,7 @@
 		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="2 LED Serial Sequence With ForLoop.vi" Type="VI" URL="../2 LED Serial Sequence With ForLoop.vi"/>
+		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
 	</Item>
 	<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
