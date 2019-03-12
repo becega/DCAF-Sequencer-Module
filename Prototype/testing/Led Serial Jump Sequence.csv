@@ -1,0 +1,8 @@
+Led Serial Jump Sequence,,,,,
+Update Tag,FALSE,,Boolean result 0,Boolean,TRUE
+Conditional Jump Step,FALSE,,Boolean parameter 0,3,
+Update Tag,FALSE,,Boolean result 1,Boolean,TRUE
+Wait Step,FALSE,,2000,,
+Update Tag,FALSE,,Boolean result 0,Boolean,FALSE
+Update Tag,FALSE,,Boolean result 1,Boolean,FALSE
+Wait Step,FALSE,,2000,,
