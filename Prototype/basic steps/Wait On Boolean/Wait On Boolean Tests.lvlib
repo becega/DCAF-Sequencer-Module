@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="To String and From String Array Test.vi" Type="VI" URL="../To String and From String Array Test.vi"/>
+	<Item Name="Initialization Test.vi" Type="VI" URL="../Tests/Initialization Test.vi"/>
+	<Item Name="To String and From String Array Test.vi" Type="VI" URL="../Tests/To String and From String Array Test.vi"/>
 </Library>
