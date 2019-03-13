@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Manual" Type="Folder">
 		<Item Name="Host Main.vi" Type="VI" URL="../Runtime/Host Main.vi"/>
+		<Item Name="Create Test CSV File.vi" Type="VI" URL="../Create Test CSV File.vi"/>
 		<Item Name="Runtime Test.vi" Type="VI" URL="../Runtime Test.vi"/>
 		<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 	</Item>
@@ -32,7 +33,9 @@
 		<Item Name="2 LED Serial Sequence With ForLoop.vi" Type="VI" URL="../2 LED Serial Sequence With ForLoop.vi"/>
 		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
+		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
+		<Item Name="Results Indexes.ctl" Type="VI" URL="../Results Indexes.ctl"/>
+		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
+		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 	</Item>
-	<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
-	<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 </Library>
