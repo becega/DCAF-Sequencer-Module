@@ -148,6 +148,11 @@
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
 			</Item>
+			<Item Name="Numeric Limit Compare" Type="Folder">
+				<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
+				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
+				<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Tests.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
@@ -156,6 +161,8 @@
 		<Item Name="Results Indexes.ctl" Type="VI" URL="../testing/Results Indexes.ctl"/>
 		<Item Name="Results.ctl" Type="VI" URL="../testing/Results.ctl"/>
 		<Item Name="Create Test CSV File.vi" Type="VI" URL="../testing/Create Test CSV File.vi"/>
+		<Item Name="Comparison Types.ctl" Type="VI" URL="../basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
+		<Item Name="Untitled 20.vi" Type="VI" URL="../basic steps/Numeric Limit Compare/Runtime/Untitled 20.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
@@ -304,6 +311,11 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="TRef Get All FP References.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Get All FP References.vi"/>
 				<Item Name="UI Reference configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UI/configuration/UI Reference configuration.lvclass"/>
+				<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+				<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+				<Item Name="Table Manager.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Table Manager/Table Manager.lvclass"/>
+				<Item Name="Column.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Column/Column.lvclass"/>
+				<Item Name="Detect Cell Change.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF Table API/Table Manager/Detect Cell Change.vi"/>
 			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
