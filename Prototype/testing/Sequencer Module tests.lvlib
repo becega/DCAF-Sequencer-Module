@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Manual" Type="Folder">
 		<Item Name="Host Main.vi" Type="VI" URL="../Runtime/Host Main.vi"/>
+		<Item Name="Create Test CSV File.vi" Type="VI" URL="../Create Test CSV File.vi"/>
 		<Item Name="Runtime Test.vi" Type="VI" URL="../Runtime Test.vi"/>
 		<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 	</Item>
@@ -19,11 +20,8 @@
 		<Item Name="Duplicate Name Error Test.vi" Type="VI" URL="../Duplicate Name Error Test.vi"/>
 		<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 		<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
-		<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
 		<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
 		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
-		<Item Name="To and From Array Test.vi" Type="VI" URL="../To and From Array Test.vi"/>
-		<Item Name="To and From CSV Test.vi" Type="VI" URL="../To and From CSV Test.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
@@ -33,8 +31,11 @@
 		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="2 LED Serial Sequence With ForLoop.vi" Type="VI" URL="../2 LED Serial Sequence With ForLoop.vi"/>
+		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
+		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
+		<Item Name="Results Indexes.ctl" Type="VI" URL="../Results Indexes.ctl"/>
+		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
+		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 	</Item>
-	<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
-	<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 </Library>
