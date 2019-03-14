@@ -128,6 +128,11 @@
 			</Item>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
+			<Item Name="Wait On Boolean" Type="Folder">
+				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
+				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			</Item>
 			<Item Name="Wait" Type="Folder">
 				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Execution/Wait Step.lvclass"/>
 				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
@@ -153,16 +158,16 @@
 				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
 				<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Tests.lvlib"/>
 			</Item>
-			<Item Name="Wait On Boolean" Type="Folder">
-				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
-				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
-				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			<Item Name="String Compare" Type="Folder">
+				<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../basic steps/String Compare/Config/String Compare Config.lvclass"/>
+				<Item Name="String Compare.lvclass" Type="LVClass" URL="../basic steps/String Compare/Runtime/String Compare.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
 		<Item Name="Sequencer Module configuration.lvclass" Type="LVClass" URL="../module/configuration/Sequencer Module configuration.lvclass"/>
 		<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../module/execution/Sequencer Module runtime.lvclass"/>
+		<Item Name="Mode.ctl" Type="VI" URL="../basic steps/String Compare/Config/Mode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
