@@ -148,6 +148,16 @@
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
 			</Item>
+			<Item Name="Numeric Limit Compare" Type="Folder">
+				<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
+				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
+				<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Tests.lvlib"/>
+			</Item>
+			<Item Name="Wait On Boolean" Type="Folder">
+				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
+				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
@@ -301,6 +311,11 @@
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+				<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+				<Item Name="Table Manager.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Table Manager/Table Manager.lvclass"/>
+				<Item Name="Column.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Column/Column.lvclass"/>
+				<Item Name="Detect Cell Change.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF Table API/Table Manager/Detect Cell Change.vi"/>
 			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -308,8 +323,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
-			<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+			<Item Name="Comparison Types.ctl" Type="VI" URL="../basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

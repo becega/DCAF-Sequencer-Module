@@ -31,11 +31,12 @@
 		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="2 LED Serial Sequence With ForLoop.vi" Type="VI" URL="../2 LED Serial Sequence With ForLoop.vi"/>
-		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
 		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
 		<Item Name="Results Indexes.ctl" Type="VI" URL="../Results Indexes.ctl"/>
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
+		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
+		<Item Name="2 LED Serial Sequence With Numeric Limit Compare.vi" Type="VI" URL="../2 LED Serial Sequence With Numeric Limit Compare.vi"/>
 	</Item>
 </Library>
