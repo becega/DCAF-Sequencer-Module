@@ -97,6 +97,10 @@
 				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:init runtime test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">91038D54-04FA-6CC8-1D1D-18ED280B289A</Property>
 			</Item>
+			<Item Name="String Compare Runtime Test.lvtest" Type="TestItem" URL="../basic steps/String Compare/Test/String Compare Runtime Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">String Compare Tests.lvlib:String Compare Runtime Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">21F67682-6237-6764-A9A1-BCC3AF514AD5</Property>
+			</Item>
 			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:runtime to editor crosslink test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">CFF9092F-D2C1-518E-79FD-4BCBFDF44A67</Property>
@@ -161,6 +165,7 @@
 			<Item Name="String Compare" Type="Folder">
 				<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../basic steps/String Compare/Config/String Compare Config.lvclass"/>
 				<Item Name="String Compare.lvclass" Type="LVClass" URL="../basic steps/String Compare/Runtime/String Compare.lvclass"/>
+				<Item Name="String Compare Tests.lvlib" Type="Library" URL="../basic steps/String Compare/Test/String Compare Tests.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
