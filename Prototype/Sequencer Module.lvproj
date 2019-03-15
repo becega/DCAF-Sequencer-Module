@@ -109,6 +109,10 @@
 				<Property Name="utf.test.bind" Type="Str">Wait Tests.lvlib:To and From String Array Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">BFD7A994-EDA4-6EB6-61C5-A1BFA507E688</Property>
 			</Item>
+			<Item Name="Numeric Limit Compare Runtime Test.lvtest" Type="TestItem" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Runtime Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Numeric Limit Compare Tests.lvlib:Numeric Limit Compare Runtime Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">DD3E5B91-E625-C42A-A47A-B9AA4B4C8A49</Property>
+			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Sequence" Type="Folder">
