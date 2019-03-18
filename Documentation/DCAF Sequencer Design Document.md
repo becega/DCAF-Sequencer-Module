@@ -152,8 +152,24 @@ This step moves the sequencer pointer to the specified step.
 ### Counter
 Counts how many times it has been executed. In conjunction with the conditional jump it works as a for.
 
-### Test Numeric Limits
-Compares a number against a upper or lower limit.
+### Numeric Limit Compare
+Compares a number of data type double (DBL) against limits.  
+This step requires the following parameters to be defined in the test sequence step configuration:    
+
+a) Comparison Type: Defines how the number will be compared against limit(s) according to the table below.  
+Only the acronym that defines a comparison type is needed in the test sequence step definition.Default value for this parameter is "GELE". As an example, for this step  
+to verify if a number is equal to a limit, the comparison type would be "EQ"   
+
+![](assets/DCAF Sequencer Design Document-277900d5.PNG)    
+
+b) Upper limit: Default upper limit is 0
+
+c) Lower Limit: Default lower limit is 0
+
+d) Negate Result: Negates the boolean result (pass/fail) of the step. Default for this parameter is false.In the test sequence step definition, "True" or "T" and "False" or "F" must be indicated for this parameter, else the default is used.
+
+
+
 
 ### Test String
 Compares a string against a value or a regular expression
