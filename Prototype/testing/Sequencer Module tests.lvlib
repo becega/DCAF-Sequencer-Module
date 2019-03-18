@@ -21,6 +21,7 @@
 		<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 		<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
 		<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
+		<Item Name="Find Project Files With Issues.vi" Type="VI" URL="../Find Project Files With Issues.vi"/>
 		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
@@ -31,11 +32,12 @@
 		<Item Name="2 LED Serial Sequence With Jump.vi" Type="VI" URL="../2 LED Serial Sequence With Jump.vi"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="2 LED Serial Sequence With ForLoop.vi" Type="VI" URL="../2 LED Serial Sequence With ForLoop.vi"/>
-		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
 		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
 		<Item Name="Results Indexes.ctl" Type="VI" URL="../Results Indexes.ctl"/>
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
+		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
+		<Item Name="2 LED Serial Sequence With Numeric Limit Compare.vi" Type="VI" URL="../2 LED Serial Sequence With Numeric Limit Compare.vi"/>
 	</Item>
 </Library>

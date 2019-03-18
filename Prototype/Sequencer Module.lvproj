@@ -109,6 +109,14 @@
 				<Property Name="utf.test.bind" Type="Str">Wait Tests.lvlib:To and From String Array Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">BFD7A994-EDA4-6EB6-61C5-A1BFA507E688</Property>
 			</Item>
+			<Item Name="Numeric Limit Compare Runtime Test.lvtest" Type="TestItem" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Runtime Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Numeric Limit Compare Tests.lvlib:Numeric Limit Compare Runtime Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">DD3E5B91-E625-C42A-A47A-B9AA4B4C8A49</Property>
+			</Item>
+			<Item Name="Find Project Files With Issues.lvtest" Type="TestItem" URL="../testing/Find Project Files With Issues.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Find Project Files With Issues.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">E33A13AE-5968-47C2-F8F8-61E957B01203</Property>
+			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Sequence" Type="Folder">
@@ -147,6 +155,16 @@
 				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
+			</Item>
+			<Item Name="Numeric Limit Compare" Type="Folder">
+				<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
+				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
+				<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Tests.lvlib"/>
+			</Item>
+			<Item Name="Wait On Boolean" Type="Folder">
+				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
+				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
@@ -301,6 +319,8 @@
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+				<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -308,8 +328,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
-			<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+			<Item Name="Comparison Types.ctl" Type="VI" URL="../basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
