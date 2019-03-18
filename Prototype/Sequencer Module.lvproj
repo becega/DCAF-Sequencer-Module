@@ -113,6 +113,10 @@
 				<Property Name="utf.test.bind" Type="Str">Numeric Limit Compare Tests.lvlib:Numeric Limit Compare Runtime Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">DD3E5B91-E625-C42A-A47A-B9AA4B4C8A49</Property>
 			</Item>
+			<Item Name="Find Project Files With Issues.lvtest" Type="TestItem" URL="../testing/Find Project Files With Issues.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Find Project Files With Issues.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">E33A13AE-5968-47C2-F8F8-61E957B01203</Property>
+			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Sequence" Type="Folder">
