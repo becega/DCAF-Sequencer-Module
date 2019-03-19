@@ -160,7 +160,7 @@ a) Comparison Type: Defines how the number will be compared against limit(s) acc
 Only the acronym that defines a comparison type is needed in the test sequence step definition.Default value for this parameter is "GELE". As an example, for this step  
 to verify if a number is equal to a limit, the comparison type would be "EQ"   
 
-![](assets/DCAF Sequencer Design Document-277900d5.PNG)    
+![Comparison Types](Images/Comparisson_Types.PNG)   
 
 b) Upper limit: Default upper limit is 0
 
