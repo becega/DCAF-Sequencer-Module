@@ -21,6 +21,7 @@
 		<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 		<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
 		<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
+		<Item Name="Find Project Files With Issues.vi" Type="VI" URL="../Find Project Files With Issues.vi"/>
 		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
