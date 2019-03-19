@@ -168,8 +168,18 @@ c) Lower Limit: Default lower limit is 0
 
 d) Negate Result: Negates the boolean result (pass/fail) of the step. Default for this parameter is false.In the test sequence step definition, "True" or "T" and "False" or "F" must be indicated for this parameter, else the default is used.
 
+### String Compare
+Compares a string against another string or a regular expression.  
+This step requires the following parameters to be defined in the test sequence step configuration  
 
 
+a) Mode: Defines whether the string will be compared against another string or regular expression.  
 
-### Test String
-Compares a string against a value or a regular expression
+b) Limit/Regex: Is the string to compare against or Regular expression, depending on selected mode for the step.  Default value is an empty string.
+
+c) Ignore case: Ignores the case of both the limit and the string that is being evaluated when determining if strings are equal or string matches a regular expression. Default is False. This parameter can be "True" or "T" and "False" or "F"
+
+d) Multiline?: This parameter is only utilized when using "Match Regex" mode for the step. Default is "False" for this parameter.
+Multiline specifies whether to treat the text in input string as a multiple-line string. This setting affects how the ^ and $ characters handle matches. If you set multiline? to FALSE (default), when you enter ^ at the beginning of a regular expression, the expression matches only the beginning of the string in input string. When you enter $ at the end of a regular expression, the expression matches only the end of the string in input string. If you set multiline? to TRUE, ^ matches the beginning of any line in input string and $ matches the end of any line in input string.   
+
+e) Offset: This parameter is only utilized when using "Match Regex" mode for the step. Offset specifies the number of characters into input string at which the function starts searching for search string.  Default for this parameter is zero (0)
