@@ -97,6 +97,10 @@
 				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:init runtime test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">91038D54-04FA-6CC8-1D1D-18ED280B289A</Property>
 			</Item>
+			<Item Name="String Compare Runtime Test.lvtest" Type="TestItem" URL="../basic steps/String Compare/Test/String Compare Runtime Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">String Compare Tests.lvlib:String Compare Runtime Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">21F67682-6237-6764-A9A1-BCC3AF514AD5</Property>
+			</Item>
 			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:runtime to editor crosslink test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">CFF9092F-D2C1-518E-79FD-4BCBFDF44A67</Property>
@@ -136,6 +140,11 @@
 			</Item>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
+			<Item Name="Wait On Boolean" Type="Folder">
+				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
+				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			</Item>
 			<Item Name="Wait" Type="Folder">
 				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Execution/Wait Step.lvclass"/>
 				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
@@ -161,16 +170,17 @@
 				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
 				<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Tests.lvlib"/>
 			</Item>
-			<Item Name="Wait On Boolean" Type="Folder">
-				<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
-				<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
-				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			<Item Name="String Compare" Type="Folder">
+				<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../basic steps/String Compare/Config/String Compare Config.lvclass"/>
+				<Item Name="String Compare.lvclass" Type="LVClass" URL="../basic steps/String Compare/Runtime/String Compare.lvclass"/>
+				<Item Name="String Compare Tests.lvlib" Type="Library" URL="../basic steps/String Compare/Test/String Compare Tests.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
 		<Item Name="Sequencer Module configuration.lvclass" Type="LVClass" URL="../module/configuration/Sequencer Module configuration.lvclass"/>
 		<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../module/execution/Sequencer Module runtime.lvclass"/>
+		<Item Name="Mode.ctl" Type="VI" URL="../basic steps/String Compare/Config/Mode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
