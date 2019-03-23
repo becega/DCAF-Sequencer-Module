@@ -39,5 +39,6 @@
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 		<Item Name="2 LED Serial Sequence With Wait On Boolean.vi" Type="VI" URL="../2 LED Serial Sequence With Wait On Boolean.vi"/>
 		<Item Name="2 LED Serial Sequence With Numeric Limit Compare.vi" Type="VI" URL="../2 LED Serial Sequence With Numeric Limit Compare.vi"/>
+		<Item Name="Report Test Sequence.vi" Type="VI" URL="../Report Test Sequence.vi"/>
 	</Item>
 </Library>
