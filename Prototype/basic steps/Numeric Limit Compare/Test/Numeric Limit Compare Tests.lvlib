@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Numeric Limit Compare Runtime Test.vi" Type="VI" URL="../Numeric Limit Compare Runtime Test.vi"/>
+	<Item Name="Test Initializing.vi" Type="VI" URL="../Test Initializing.vi"/>
 	<Item Name="To And From String Array Test.vi" Type="VI" URL="../To And From String Array Test.vi"/>
 </Library>

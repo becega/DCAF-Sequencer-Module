@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="String Compare Runtime Test.vi" Type="VI" URL="../String Compare Runtime Test.vi"/>
+	<Item Name="Test Initialization.vi" Type="VI" URL="../Test Initialization.vi"/>
 	<Item Name="To And From String Array Test.vi" Type="VI" URL="../To And From String Array Test.vi"/>
 </Library>

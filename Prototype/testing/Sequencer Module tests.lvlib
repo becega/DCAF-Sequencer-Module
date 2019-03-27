@@ -15,6 +15,7 @@
 		<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 	</Item>
 	<Item Name="Unit Tests" Type="Folder">
+		<Item Name="Sequences Initialization Test.vi" Type="VI" URL="../Sequences Initialization Test.vi"/>
 		<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
 		<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
 		<Item Name="Duplicate Name Error Test.vi" Type="VI" URL="../Duplicate Name Error Test.vi"/>

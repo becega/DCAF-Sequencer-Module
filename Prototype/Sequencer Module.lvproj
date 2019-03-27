@@ -121,6 +121,10 @@
 				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Find Project Files With Issues.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">E33A13AE-5968-47C2-F8F8-61E957B01203</Property>
 			</Item>
+			<Item Name="Sequences Initialization Test.lvtest" Type="TestItem" URL="../testing/Sequences Initialization Test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Sequencer Module tests.lvlib:Sequences Initialization Test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">96EBA9AD-032D-9084-818D-02E72E6B343E</Property>
+			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Sequence" Type="Folder">
