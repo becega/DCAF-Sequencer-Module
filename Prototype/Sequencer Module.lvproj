@@ -138,6 +138,12 @@
 				<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
 				<Item Name="Parallel Steps Tests.lvlib" Type="Library" URL="../basic steps/Parallel Step/Tests/Parallel Steps Tests.lvlib"/>
 			</Item>
+			<Item Name="Result" Type="Folder">
+				<Item Name="Result.lvclass" Type="LVClass" URL="../classes/Result/Result.lvclass"/>
+			</Item>
+			<Item Name="ResultsList" Type="Folder">
+				<Item Name="Results List.lvclass" Type="LVClass" URL="../classes/Results List/Results List.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Basic Steps" Type="Folder">
 			<Item Name="Wait On Boolean" Type="Folder">
