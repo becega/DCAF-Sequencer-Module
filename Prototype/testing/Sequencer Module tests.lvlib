@@ -17,6 +17,7 @@
 		<Item Name="LED Sequence.vi" Type="VI" URL="../LED Sequence.vi"/>
 		<Item Name="2 LED Serial Sequence With Numeric Limit Compare.vi" Type="VI" URL="../2 LED Serial Sequence With Numeric Limit Compare.vi"/>
 		<Item Name="Report Test Sequence.vi" Type="VI" URL="../Report Test Sequence.vi"/>
+		<Item Name="String Compare Sequence.vi" Type="VI" URL="../String Compare Sequence.vi"/>
 	</Item>
 	<Item Name="Manual" Type="Folder">
 		<Item Name="Host Main.vi" Type="VI" URL="../Runtime/Host Main.vi"/>
