@@ -1,7 +1,7 @@
-Led Serial Sequence,,,,,
-Update Tag,FALSE,,Boolean result 0,Boolean,TRUE
-Update Tag,FALSE,,Boolean result 1,Boolean,TRUE
-Wait Step,FALSE,,2000,,
-Update Tag,FALSE,,Boolean result 0,Boolean,FALSE
-Update Tag,FALSE,,Boolean result 1,Boolean,FALSE
-Wait Step,FALSE,,2000,,
+Led Serial Sequence,,,,,,
+Update Tag,FALSE,ON1,,Boolean result 0,Boolean,TRUE
+Update Tag,FALSE,ON2,,Boolean result 1,Boolean,TRUE
+Wait Step,FALSE,WaitON,,2000,,
+Update Tag,FALSE,,,Boolean result 0,Boolean,FALSE
+Update Tag,FALSE,,,Boolean result 1,Boolean,FALSE
+Wait Step,FALSE,WaitOFF,,2000,,
