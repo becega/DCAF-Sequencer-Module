@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Async Test With Results.vi" Type="VI" URL="../Async Test With Results.vi"/>
 	<Item Name="AsyncTest.vi" Type="VI" URL="../AsyncTest.vi"/>
 </Library>
