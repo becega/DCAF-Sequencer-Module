@@ -1,0 +1,3 @@
+Report Sequence,,,,,,,,,
+Update Tag,FALSE,Change Value,,Test Value Out,Double,5.000000,,,
+Numeric Limit Compare,FALSE,Test 2,,Test Value In,Test Result In,GELE (>=<=),FALSE,10.000000,1.000000
