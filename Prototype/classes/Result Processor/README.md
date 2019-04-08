@@ -3,7 +3,7 @@
 The result processor is an asynchronous process with an API you can use to 
 control the worker and modify your report. This image shows the software 
 architecture.
-![Software Architecture](SoftwareArch.png)
+![Software Architecture](SoftwareArch.PNG)
 
 ## AsyncWorker control API
 
