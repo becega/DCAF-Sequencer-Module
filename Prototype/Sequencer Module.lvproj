@@ -346,6 +346,19 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Comparison Types.ctl" Type="VI" URL="../basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
+			<Item Name="Formatter Config.lvclass" Type="LVClass" URL="../classes/Report Formatters/Base Class/Config/Formatter Config.lvclass"/>
+			<Item Name="Report Config.lvclass" Type="LVClass" URL="../classes/Report/Generic/Config/Report Config.lvclass"/>
+			<Item Name="ResultProcessor Config.lvclass" Type="LVClass" URL="../classes/Result Processor/Config/ResultProcessor Config.lvclass"/>
+			<Item Name="Formatter.lvclass" Type="LVClass" URL="../classes/Report Formatters/Base Class/Execution/Formatter.lvclass"/>
+			<Item Name="Report Information.lvclass" Type="LVClass" URL="../classes/Report Information/Report Information.lvclass"/>
+			<Item Name="Result Config.ctl" Type="VI" URL="../classes/Report Formatters/csv/Config/Result Config.ctl"/>
+			<Item Name="Report Header Config.ctl" Type="VI" URL="../classes/Report Formatters/csv/Config/Report Header Config.ctl"/>
+			<Item Name="csv-formatter Config.lvclass" Type="LVClass" URL="../classes/Report Formatters/csv/Config/csv-formatter Config.lvclass"/>
+			<Item Name="csv-formatter.lvclass" Type="LVClass" URL="../classes/Report Formatters/csv/Execution/csv-formatter.lvclass"/>
+			<Item Name="LookupFormatConfig.vi" Type="VI" URL="../classes/Report/Utilities/LookupFormatConfig.vi"/>
+			<Item Name="Report.lvclass" Type="LVClass" URL="../classes/Report/Generic/Execution/Report.lvclass"/>
+			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
+			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
