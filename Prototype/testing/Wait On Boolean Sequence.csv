@@ -1,0 +1,7 @@
+Wait On Boolean Sequence,,,,,,
+Update Tag,FALSE,,,Boolean result 0,Boolean,TRUE
+Update Tag,FALSE,,,Boolean result 1,Boolean,TRUE
+Wait Step,FALSE,,,2000,,
+Update Tag,FALSE,,,Boolean result 0,Boolean,FALSE
+Update Tag,FALSE,,,Boolean result 1,Boolean,FALSE
+Wait On Boolean Step,FALSE,,,Boolean parameter 0,10000,
