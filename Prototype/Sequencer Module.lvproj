@@ -359,6 +359,7 @@
 			<Item Name="Report.lvclass" Type="LVClass" URL="../classes/Report/Generic/Execution/Report.lvclass"/>
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
+			<Item Name="ResultProcessor.lvclass" Type="LVClass" URL="../classes/Result Processor/Execution/ResultProcessor.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

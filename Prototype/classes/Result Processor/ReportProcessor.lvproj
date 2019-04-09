@@ -50,6 +50,7 @@
 			<Item Name="Report.lvclass" Type="LVClass" URL="../../Report/Generic/Execution/Report.lvclass"/>
 			<Item Name="Result Config.ctl" Type="VI" URL="../../Report Formatters/csv/Config/Result Config.ctl"/>
 			<Item Name="Result.lvclass" Type="LVClass" URL="../../Result/Result.lvclass"/>
+			<Item Name="Step.lvclass" Type="LVClass" URL="../../Step/Execution/Step.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
