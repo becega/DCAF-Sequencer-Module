@@ -77,7 +77,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Channel.lvclass" Type="LVClass" URL="../Classes/Channel/Channel.lvclass"/>
+			<Item Name="StepNode.lvclass" Type="LVClass" URL="../Classes/StepNode/StepNode.lvclass"/>
 			<Item Name="SequenceNode.lvclass" Type="LVClass" URL="../Classes/SequenceNode/SequenceNode.lvclass"/>
 			<Item Name="SequenceRepo.lvclass" Type="LVClass" URL="../Classes/SequenceRepo/SequenceRepo.lvclass"/>
 		</Item>
@@ -295,7 +295,23 @@
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ChannelData.ctl" Type="VI" URL="../../../to delete/ChannelData.ctl"/>
+			<Item Name="ResultProcessor.lvclass" Type="LVClass" URL="../../Prototype/classes/Result Processor/Execution/ResultProcessor.lvclass"/>
+			<Item Name="Report Information.lvclass" Type="LVClass" URL="../../Prototype/classes/Report Information/Report Information.lvclass"/>
+			<Item Name="ResultProcessor Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Result Processor/Config/ResultProcessor Config.lvclass"/>
+			<Item Name="Report Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/Generic/Config/Report Config.lvclass"/>
+			<Item Name="Formatter Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report Formatters/Base Class/Config/Formatter Config.lvclass"/>
+			<Item Name="Formatter.lvclass" Type="LVClass" URL="../../Prototype/classes/Report Formatters/Base Class/Execution/Formatter.lvclass"/>
+			<Item Name="LookupFormatConfig.vi" Type="VI" URL="../../Prototype/classes/Report/Utilities/LookupFormatConfig.vi"/>
+			<Item Name="csv-formatter Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report Formatters/csv/Config/csv-formatter Config.lvclass"/>
+			<Item Name="Report Header Config.ctl" Type="VI" URL="../../Prototype/classes/Report Formatters/csv/Config/Report Header Config.ctl"/>
+			<Item Name="Result Config.ctl" Type="VI" URL="../../Prototype/classes/Report Formatters/csv/Config/Result Config.ctl"/>
+			<Item Name="csv-formatter.lvclass" Type="LVClass" URL="../../Prototype/classes/Report Formatters/csv/Execution/csv-formatter.lvclass"/>
+			<Item Name="Report.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/Generic/Execution/Report.lvclass"/>
+			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
+			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
+			<Item Name="Read View Channel info.vi" Type="VI" URL="../../../../to delete/Read View Channel info.vi"/>
+			<Item Name="Write View Channel info.vi" Type="VI" URL="../Classes/StepNode/Write View Channel info.vi"/>
+			<Item Name="ChannelDisplayInfo.ctl" Type="VI" URL="../Classes/StepNode/ChannelDisplayInfo.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Editor" Type="EXE">
