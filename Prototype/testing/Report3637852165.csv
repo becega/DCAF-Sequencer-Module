@@ -1,0 +1,13 @@
+Result,sn4455432,Batt45,,,,
+sn123456n43,Station43,,,,,
+,,,,,,
+Step Name,Step Class,Low Limit,Measurement,High Limit,Comparison,Duration
+ON1,Update Tag.lvclass,,,,ON1,0.000000
+ON2,Update Tag.lvclass,,,,ON2,0.000000
+WaitON,Wait Step.lvclass,,,,WaitON,2.097008
+,Update Tag.lvclass,,,,,0.000000
+,Update Tag.lvclass,,,,,0.000000
+WaitOFF,Wait Step.lvclass,,,,WaitOFF,2.094025
+CleanUp,Update Tag.lvclass,,,,CleanUp,0.000000
+CleanUp,Wait Step.lvclass,,,,CleanUp,2.000090
+CleanUp,Update Tag.lvclass,,,,CleanUp,0.000000
