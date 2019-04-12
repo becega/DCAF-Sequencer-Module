@@ -1,0 +1,10 @@
+Result,,,,,,
+,,,,,,
+,,,,,,
+Step Name,Step Class,Low Limit,Measurement,High Limit,Comparison,Duration
+,Update Tag.lvclass,,,,,0.000000
+,Update Tag.lvclass,,,,,0.000000
+WaitOFF,Wait Step.lvclass,,,,WaitOFF,2.098900
+CleanUp,Update Tag.lvclass,,,,CleanUp,0.000995
+CleanUp,Wait Step.lvclass,,,,CleanUp,2.098979
+CleanUp,Update Tag.lvclass,,,,CleanUp,0.000000

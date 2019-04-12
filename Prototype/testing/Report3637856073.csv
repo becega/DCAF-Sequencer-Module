@@ -1,0 +1,7 @@
+Result,,,,,,
+,,,,,,
+,,,,,,
+Step Name,Step Class,Low Limit,Measurement,High Limit,Comparison,Duration
+Change Value,Update Tag.lvclass,,,,Change Value,0.000000
+,Numeric Limit Compare.lvclass,1.000000,,10.000000,,0.000000
+,Step.lvclass,,,,,0.000000
