@@ -309,9 +309,6 @@
 			<Item Name="Report.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/Generic/Execution/Report.lvclass"/>
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
-			<Item Name="Read View Channel info.vi" Type="VI" URL="../../../../to delete/Read View Channel info.vi"/>
-			<Item Name="Write View Channel info.vi" Type="VI" URL="../Classes/StepNode/Write View Channel info.vi"/>
-			<Item Name="ChannelDisplayInfo.ctl" Type="VI" URL="../Classes/StepNode/ChannelDisplayInfo.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Editor" Type="EXE">
