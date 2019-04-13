@@ -180,6 +180,11 @@
 				<Item Name="String Compare.lvclass" Type="LVClass" URL="../basic steps/String Compare/Runtime/String Compare.lvclass"/>
 				<Item Name="String Compare Tests.lvlib" Type="Library" URL="../basic steps/String Compare/Test/String Compare Tests.lvlib"/>
 			</Item>
+			<Item Name="Counter" Type="Folder">
+				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
+				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
+				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
@@ -355,8 +360,6 @@
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
 			<Item Name="ResultProcessor.lvclass" Type="LVClass" URL="../classes/Result Processor/Execution/ResultProcessor.lvclass"/>
-			<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
-			<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
