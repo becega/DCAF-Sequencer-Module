@@ -80,6 +80,8 @@
 			<Item Name="StepNode.lvclass" Type="LVClass" URL="../Classes/StepNode/StepNode.lvclass"/>
 			<Item Name="SequenceNode.lvclass" Type="LVClass" URL="../Classes/SequenceNode/SequenceNode.lvclass"/>
 			<Item Name="SequenceRepo.lvclass" Type="LVClass" URL="../Classes/SequenceRepo/SequenceRepo.lvclass"/>
+			<Item Name="MainCategoryNode.lvclass" Type="LVClass" URL="../Classes/MainCategoryNode/MainCategoryNode.lvclass"/>
+			<Item Name="CleanupCategoryNode.lvclass" Type="LVClass" URL="../Classes/CleanupCategoryNode/CleanupCategoryNode.lvclass"/>
 		</Item>
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="AC_Volts.png" Type="Document" URL="../Glyphs/AC_Volts.png"/>
@@ -111,6 +113,7 @@
 			<Item Name="Create Test Sequence File.vi" Type="VI" URL="../Test VIs/Create Test Sequence File.vi"/>
 		</Item>
 		<Item Name="Configuration Tool.lvlib" Type="Library" URL="../Configuration Tool.lvlib"/>
+		<Item Name="StepClassLibrary.ctl" Type="VI" URL="../Controls/StepClassLibrary.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>

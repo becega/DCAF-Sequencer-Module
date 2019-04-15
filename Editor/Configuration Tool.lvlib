@@ -18,6 +18,8 @@
 		<Item Name="Error.vi" Type="VI" URL="../subVI/Error.vi"/>
 		<Item Name="FileDialog.vi" Type="VI" URL="../subVI/FileDialog.vi"/>
 		<Item Name="FilePaths.vi" Type="VI" URL="../subVI/FilePaths.vi"/>
+		<Item Name="GetStepsPath.vi" Type="VI" URL="../subVI/GetStepsPath.vi"/>
+		<Item Name="Load Step Classes.vi" Type="VI" URL="../subVI/Load Step Classes.vi"/>
 		<Item Name="MenuOptions.vi" Type="VI" URL="../subVI/MenuOptions.vi"/>
 		<Item Name="Save.vi" Type="VI" URL="../subVI/Save.vi"/>
 		<Item Name="SaveAs.vi" Type="VI" URL="../subVI/SaveAs.vi"/>
