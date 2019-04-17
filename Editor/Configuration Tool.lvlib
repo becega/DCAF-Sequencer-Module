@@ -12,6 +12,7 @@
 		<Item Name="FilePaths.ctl" Type="VI" URL="../Controls/FilePaths.ctl"/>
 		<Item Name="MoveMessage.ctl" Type="VI" URL="../Controls/MoveMessage.ctl"/>
 		<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
+		<Item Name="StepClassLibrary.ctl" Type="VI" URL="../Controls/StepClassLibrary.ctl"/>
 	</Item>
 	<Item Name="subVI" Type="Folder">
 		<Item Name="Enumerate Step Types.vi" Type="VI" URL="../subVI/Enumerate Step Types.vi"/>

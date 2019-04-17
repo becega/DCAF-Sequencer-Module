@@ -113,7 +113,6 @@
 			<Item Name="Create Test Sequence File.vi" Type="VI" URL="../Test VIs/Create Test Sequence File.vi"/>
 		</Item>
 		<Item Name="Configuration Tool.lvlib" Type="Library" URL="../Configuration Tool.lvlib"/>
-		<Item Name="StepClassLibrary.ctl" Type="VI" URL="../Controls/StepClassLibrary.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
