@@ -1,2 +1,3 @@
-String Compare Sequence,,,,,,,,,,
-String Compare,FALSE,,,Test Value Channel 2,Result Channel 2,Compare Strings,Test String,FALSE,FALSE,0
+String Compare Sequence	1.0.0.0									
+String Compare	FALSE			Test Value Channel 2	Result Channel 2	Compare Strings	Test String	FALSE	FALSE	0
+---------										

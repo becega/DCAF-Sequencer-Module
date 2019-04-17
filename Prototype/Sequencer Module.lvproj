@@ -170,11 +170,6 @@
 				<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../basic steps/Conditional Jump Step/Execution/Conditional Jump Step.lvclass"/>
 				<Item Name="Conditional Jump Tests.lvlib" Type="Library" URL="../basic steps/Conditional Jump Step/Tests/Conditional Jump Tests.lvlib"/>
 			</Item>
-			<Item Name="Counter" Type="Folder">
-				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
-				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
-				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
-			</Item>
 			<Item Name="Numeric Limit Compare" Type="Folder">
 				<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
 				<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
@@ -184,6 +179,11 @@
 				<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../basic steps/String Compare/Config/String Compare Config.lvclass"/>
 				<Item Name="String Compare.lvclass" Type="LVClass" URL="../basic steps/String Compare/Runtime/String Compare.lvclass"/>
 				<Item Name="String Compare Tests.lvlib" Type="Library" URL="../basic steps/String Compare/Test/String Compare Tests.lvlib"/>
+			</Item>
+			<Item Name="Counter" Type="Folder">
+				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
+				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
+				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
