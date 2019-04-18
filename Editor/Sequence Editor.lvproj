@@ -365,7 +365,7 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configuration Tool.lvlib/Configuration Tool Main.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configuration Tool.lvlib/Sequence Editor Main.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
