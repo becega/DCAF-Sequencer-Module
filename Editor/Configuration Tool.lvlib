@@ -15,11 +15,13 @@
 		<Item Name="StepClassLibrary.ctl" Type="VI" URL="../Controls/StepClassLibrary.ctl"/>
 	</Item>
 	<Item Name="subVI" Type="Folder">
+		<Item Name="AddPeerNodeAtIndex.vi" Type="VI" URL="../subVI/Tree/AddPeerNodeAtIndex.vi"/>
 		<Item Name="Enumerate Step Types.vi" Type="VI" URL="../subVI/Enumerate Step Types.vi"/>
 		<Item Name="Error.vi" Type="VI" URL="../subVI/Error.vi"/>
 		<Item Name="FileDialog.vi" Type="VI" URL="../subVI/FileDialog.vi"/>
 		<Item Name="FilePaths.vi" Type="VI" URL="../subVI/FilePaths.vi"/>
 		<Item Name="Get Parent Node ID from ID.vi" Type="VI" URL="../subVI/Get Parent Node ID from ID.vi"/>
+		<Item Name="Get TreeIndex from ID.vi" Type="VI" URL="../subVI/Tree/Get TreeIndex from ID.vi"/>
 		<Item Name="GetStepsPath.vi" Type="VI" URL="../subVI/GetStepsPath.vi"/>
 		<Item Name="Load Step Classes.vi" Type="VI" URL="../subVI/Load Step Classes.vi"/>
 		<Item Name="MenuOptions.vi" Type="VI" URL="../subVI/MenuOptions.vi"/>
