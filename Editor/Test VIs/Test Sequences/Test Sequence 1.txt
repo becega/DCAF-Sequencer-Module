@@ -1,0 +1,7 @@
+Test Sequence,1.0.0.0,2.0,,,,
+Update Tag,FALSE,,,Test Tag 1,Boolean,TRUE
+Wait Step,FALSE,,,2000,,
+Update Tag,FALSE,,,Test Tag 1,Boolean,FALSE
+Wait Step,FALSE,,,2000,,
+---------,,,,,,
+Wait Step,FALSE,Clean Up,,1000,,
