@@ -45,4 +45,6 @@
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
 	</Item>
+	<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
+	<Item Name="Get Parameters Indexes.vi" Type="VI" URL="../Get Parameters Indexes.vi"/>
 </Library>
