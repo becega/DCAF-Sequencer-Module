@@ -43,8 +43,9 @@
 		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
 		<Item Name="Results Indexes.ctl" Type="VI" URL="../Results Indexes.ctl"/>
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
+		<Item Name="Get Parameters Indexes.vi" Type="VI" URL="../Get Parameters Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
+		<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
+		<Item Name="Update Step UI Values.vi" Type="VI" URL="../Update Step UI Values.vi"/>
 	</Item>
-	<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
-	<Item Name="Get Parameters Indexes.vi" Type="VI" URL="../Get Parameters Indexes.vi"/>
 </Library>
