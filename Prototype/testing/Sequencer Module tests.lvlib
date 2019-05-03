@@ -37,7 +37,6 @@
 		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Runtime/Host Module Includes.vi"/>
 		<Item Name="Results.ctl" Type="VI" URL="../Results.ctl"/>
@@ -45,7 +44,10 @@
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
 		<Item Name="Get Parameters Indexes.vi" Type="VI" URL="../Get Parameters Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
-		<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
 		<Item Name="Update Step UI Values.vi" Type="VI" URL="../Update Step UI Values.vi"/>
+		<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
+		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
+		<Item Name="Create Sequences for Test Configuration.vi" Type="VI" URL="../Create Sequences for Test Configuration.vi"/>
+		<Item Name="Create Test Reporter Configuration.vi" Type="VI" URL="../Create Test Reporter Configuration.vi"/>
 	</Item>
 </Library>
