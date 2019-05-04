@@ -136,6 +136,7 @@
 				<Item Name="Step Config.lvclass" Type="LVClass" URL="../classes/Step/Config/Step Config.lvclass"/>
 				<Item Name="Step.lvclass" Type="LVClass" URL="../classes/Step/Execution/Step.lvclass"/>
 				<Item Name="StepTests.lvlib" Type="Library" URL="../classes/Step/Tests/StepTests.lvlib"/>
+				<Item Name="Step UI.lvclass" Type="LVClass" URL="../classes/Step/UI/Step UI.lvclass"/>
 			</Item>
 			<Item Name="Parallel Step" Type="Folder">
 				<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
@@ -159,6 +160,7 @@
 				<Item Name="Wait Step.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Execution/Wait Step.lvclass"/>
 				<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
 				<Item Name="Wait Tests.lvlib" Type="Library" URL="../basic steps/Wait Step/Test/Wait Tests.lvlib"/>
+				<Item Name="Wait Step UI.lvclass" Type="LVClass" URL="../basic steps/Wait Step/UI/Wait Step UI.lvclass"/>
 			</Item>
 			<Item Name="Update Tag" Type="Folder">
 				<Item Name="Update Tag.lvclass" Type="LVClass" URL="../basic steps/Update Tag Step/Execution/Update Tag.lvclass"/>
@@ -338,6 +340,8 @@
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -360,6 +364,10 @@
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
 			<Item Name="ResultProcessor.lvclass" Type="LVClass" URL="../classes/Result Processor/Execution/ResultProcessor.lvclass"/>
+			<Item Name="StepNode.lvclass" Type="LVClass" URL="../../Editor/Classes/StepNode/StepNode.lvclass"/>
+			<Item Name="Configuration Tool.lvlib" Type="Library" URL="../../Editor/Configuration Tool.lvlib"/>
+			<Item Name="SequenceRepo.lvclass" Type="LVClass" URL="../../Editor/Classes/SequenceRepo/SequenceRepo.lvclass"/>
+			<Item Name="SequenceNode.lvclass" Type="LVClass" URL="../../Editor/Classes/SequenceNode/SequenceNode.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
