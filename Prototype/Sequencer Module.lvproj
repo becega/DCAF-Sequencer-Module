@@ -360,6 +360,9 @@
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
 			<Item Name="ResultProcessor.lvclass" Type="LVClass" URL="../classes/Result Processor/Execution/ResultProcessor.lvclass"/>
+			<Item Name="Parameters.ctl" Type="VI" URL="../testing/Parameters.ctl"/>
+			<Item Name="Parameters Indexes.ctl" Type="VI" URL="../testing/Parameters Indexes.ctl"/>
+			<Item Name="Get Step Information From Sequencer Configuration.vi" Type="VI" URL="../testing/Get Step Information From Sequencer Configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
