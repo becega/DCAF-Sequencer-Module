@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="subVI" Type="Folder">
 		<Item Name="Class Step Loads" Type="Folder">
+			<Item Name="Load LV Class from Disk.vi" Type="VI" URL="../subVI/Step Class Loads/Load LV Class from Disk.vi"/>
 			<Item Name="Load Step Classes.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step Classes.vi"/>
 			<Item Name="Load Step Config Class.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step Config Class.vi"/>
 			<Item Name="Load Step UI Class.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step UI Class.vi"/>
