@@ -1,6 +1,6 @@
 Led ParallelSequence	1.0.0.0																		
-Parallel Step	FALSE			Update Tag	FALSE			Boolean result 0	Boolean	TRUE	:;:;	Update Tag	FALSE			Boolean result 1	Boolean	TRUE	:;:;
-Wait Step	FALSE			2000															
-Parallel Step	FALSE			Update Tag	FALSE			Boolean result 0	Boolean	FALSE	:;:;	Update Tag	FALSE			Boolean result 1	Boolean	FALSE	:;:;
-Wait Step	FALSE			2000															
+Parallel Step	FALSE	On		Update Tag	FALSE			Boolean result 0	Boolean	TRUE	:;:;	Update Tag	FALSE			Boolean result 1	Boolean	TRUE	:;:;
+Wait Step	FALSE	Wait On		2000															
+Parallel Step	FALSE	Off		Update Tag	FALSE			Boolean result 0	Boolean	FALSE	:;:;	Update Tag	FALSE			Boolean result 1	Boolean	FALSE	:;:;
+Wait Step	FALSE	Wait Off		2000															
 ---------																			

@@ -1,4 +1,7 @@
-Report Sequence	1.0.0.0								
-Update Tag	FALSE	Change Value		Test Value Out	Double	5.000000			
-Numeric Limit Compare	FALSE	Test 2		Test Value In	Test Result In	GELE (>=<=)	FALSE	10.000000	1.000000
----------									
+Report Sequence	1.0.0.0									
+Numeric Limit Compare	FALSE	Test 1		Test Value In	Test Result	GELE (>=<=)	FALSE	10.000000	1.000000	
+Numeric Limit Compare	FALSE	Test 2		Test Value In 2	Test Result	GELE (>=<=)	FALSE	10.000000	1.000000	
+String Compare	FALSE	String Test 3		String Test Value In	Test Result	Compare Strings	Hello	TRUE	FALSE	0
+String Compare	FALSE	String Test 4		String Test Value In	Test Result	Compare Strings	World	TRUE	FALSE	0
+---------										
+Wait Step	FALSE	CleanUp		2000						
