@@ -1,7 +1,7 @@
 Single Led Sequence	1.0.0.0	2.0				
-Update Tag	FALSE			Boolean result 0	Boolean	TRUE
-Wait Step	FALSE			2000		
-Update Tag	FALSE			Boolean result 0	Boolean	FALSE
-Wait Step	FALSE			2000		
+Update Tag	FALSE	On		Boolean result 0	Boolean	TRUE
+Wait Step	FALSE	Wait On		2000		
+Update Tag	FALSE	Off		Boolean result 0	Boolean	FALSE
+Wait Step	FALSE	Wait Off		2000		
 ---------						
 Wait Step	FALSE	Clean Up		1000		

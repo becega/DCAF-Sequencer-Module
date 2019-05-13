@@ -44,10 +44,15 @@
 		<Item Name="Get Results Indexes.vi" Type="VI" URL="../Get Results Indexes.vi"/>
 		<Item Name="Get Parameters Indexes.vi" Type="VI" URL="../Get Parameters Indexes.vi"/>
 		<Item Name="Read Results.vi" Type="VI" URL="../Read Results.vi"/>
+		<Item Name="Parameters.ctl" Type="VI" URL="../Parameters.ctl"/>
+		<Item Name="Parameters Indexes.ctl" Type="VI" URL="../Parameters Indexes.ctl"/>
+		<Item Name="Get Step Information From Sequencer Configuration.vi" Type="VI" URL="../Get Step Information From Sequencer Configuration.vi"/>
 		<Item Name="Update Step UI Values.vi" Type="VI" URL="../Update Step UI Values.vi"/>
 		<Item Name="Write Paramaters.vi" Type="VI" URL="../Write Paramaters.vi"/>
 		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
 		<Item Name="Create Sequences for Test Configuration.vi" Type="VI" URL="../Create Sequences for Test Configuration.vi"/>
 		<Item Name="Create Test Reporter Configuration.vi" Type="VI" URL="../Create Test Reporter Configuration.vi"/>
+		<Item Name="load and intialize target with engines (config out).vi" Type="VI" URL="../load and intialize target with engines (config out).vi"/>
 	</Item>
+	<Item Name="Get Sequences Information for UI.vi" Type="VI" URL="../Get Sequences Information for UI.vi"/>
 </Library>
