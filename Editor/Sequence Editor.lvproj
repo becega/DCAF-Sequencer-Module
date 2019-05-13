@@ -311,6 +311,7 @@
 			<Item Name="Report.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/Generic/Execution/Report.lvclass"/>
 			<Item Name="OnTheFlyReport Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Config/OnTheFlyReport Config.lvclass"/>
 			<Item Name="OnTheFlyReport.lvclass" Type="LVClass" URL="../../Prototype/classes/Report/On-The-Fly/Execution/OnTheFlyReport.lvclass"/>
+			<Item Name="Step UI.lvclass" Type="LVClass" URL="../../Prototype/classes/Step/UI/Step UI.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Editor" Type="EXE">

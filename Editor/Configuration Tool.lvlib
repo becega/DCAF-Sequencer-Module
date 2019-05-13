@@ -15,6 +15,13 @@
 		<Item Name="StepClassLibrary.ctl" Type="VI" URL="../Controls/StepClassLibrary.ctl"/>
 	</Item>
 	<Item Name="subVI" Type="Folder">
+		<Item Name="Class Step Loads" Type="Folder">
+			<Item Name="Load LV Class from Disk.vi" Type="VI" URL="../subVI/Step Class Loads/Load LV Class from Disk.vi"/>
+			<Item Name="Load Step Classes.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step Classes.vi"/>
+			<Item Name="Load Step Config Class.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step Config Class.vi"/>
+			<Item Name="Load Step UI Class.vi" Type="VI" URL="../subVI/Step Class Loads/Load Step UI Class.vi"/>
+			<Item Name="Step Class Library FGV.vi" Type="VI" URL="../subVI/Step Class Loads/Step Class Library FGV.vi"/>
+		</Item>
 		<Item Name="DEBUG" Type="Folder">
 			<Item Name="DEBUG Read Node Classes.vi" Type="VI" URL="../subVI/DEBUG/DEBUG Read Node Classes.vi"/>
 			<Item Name="DEBUG Read Repo.vi" Type="VI" URL="../subVI/DEBUG/DEBUG Read Repo.vi"/>
@@ -27,12 +34,10 @@
 		<Item Name="Get Parent Node ID from ID.vi" Type="VI" URL="../subVI/Get Parent Node ID from ID.vi"/>
 		<Item Name="Get TreeIndex from ID.vi" Type="VI" URL="../subVI/Tree/Get TreeIndex from ID.vi"/>
 		<Item Name="GetStepsPath.vi" Type="VI" URL="../subVI/GetStepsPath.vi"/>
-		<Item Name="Load Step Classes.vi" Type="VI" URL="../subVI/Load Step Classes.vi"/>
 		<Item Name="MenuOptions.vi" Type="VI" URL="../subVI/MenuOptions.vi"/>
 		<Item Name="Save.vi" Type="VI" URL="../subVI/Save.vi"/>
 		<Item Name="SaveAs.vi" Type="VI" URL="../subVI/SaveAs.vi"/>
 		<Item Name="SaveDialog.vi" Type="VI" URL="../subVI/SaveDialog.vi"/>
-		<Item Name="Step Class Library FGV.vi" Type="VI" URL="../subVI/Step Class Library FGV.vi"/>
 	</Item>
 	<Item Name="Sequence Editor Main.vi" Type="VI" URL="../Sequence Editor Main.vi"/>
 </Library>
