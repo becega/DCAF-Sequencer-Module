@@ -112,6 +112,118 @@
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Create Test Sequence File.vi" Type="VI" URL="../Test VIs/Create Test Sequence File.vi"/>
 		</Item>
+		<Item Name="basic steps" Type="Folder">
+			<Item Name="Conditional Jump Step" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Conditional Jump Step/Config/Conditional Jump Step Config.lvclass"/>
+				</Item>
+				<Item Name="Execution" Type="Folder">
+					<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Conditional Jump Step/Execution/Conditional Jump Step.lvclass"/>
+				</Item>
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Conditional Jump Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Conditional Jump Step/Tests/Conditional Jump Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Counter" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Counter Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Counter/Config/Counter Config.lvclass"/>
+				</Item>
+				<Item Name="Runtime" Type="Folder">
+					<Item Name="Counter Old.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Counter/Runtime/Counter Old.lvclass"/>
+					<Item Name="Counter.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Counter/Runtime/Counter.lvclass"/>
+				</Item>
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Counter Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Counter/Tests/Counter Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Numeric Limit Compare" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Comparison Types.ctl" Type="VI" URL="../../Prototype/basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
+					<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
+				</Item>
+				<Item Name="Runtime" Type="Folder">
+					<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="Numeric Limit Compare Runtime Test.lvtest" Type="TestItem" URL="../../Prototype/basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Runtime Test.lvtest">
+						<Property Name="utf.test.bind" Type="Str">Numeric Limit Compare Tests.lvlib:Numeric Limit Compare Runtime Test.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">2120369F-27AA-6F99-5A0A-9AB04B2E2845</Property>
+					</Item>
+					<Item Name="Numeric Limit Compare Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Numeric Limit Compare/Test/Numeric Limit Compare Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Parallel Step" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
+				</Item>
+				<Item Name="Execution" Type="Folder">
+					<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
+				</Item>
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Parallel Steps Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Parallel Step/Tests/Parallel Steps Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="String Compare" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/String Compare/Config/String Compare Config.lvclass"/>
+				</Item>
+				<Item Name="Runtime" Type="Folder">
+					<Item Name="String Compare.lvclass" Type="LVClass" URL="../../Prototype/basic steps/String Compare/Runtime/String Compare.lvclass"/>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="String Compare Runtime Test.lvtest" Type="TestItem" URL="../../Prototype/basic steps/String Compare/Test/String Compare Runtime Test.lvtest">
+						<Property Name="utf.test.bind" Type="Str">String Compare Tests.lvlib:String Compare Runtime Test.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">0DA6961F-7541-19B1-A0B6-EF30B64BD255</Property>
+					</Item>
+					<Item Name="String Compare Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/String Compare/Test/String Compare Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Update Tag Step" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Update Tag Configuration" Type="Folder">
+						<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Update Tag Step/Config/Update Tag Configuration/Update Tag Config.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Execution" Type="Folder">
+					<Item Name="Update Tag.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Update Tag Step/Execution/Update Tag.lvclass"/>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="Update Tag Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Update Tag Step/Test/Update Tag Tests.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Wait On Boolean" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
+				</Item>
+				<Item Name="Runtime" Type="Folder">
+					<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
+				</Item>
+				<Item Name="Tests" Type="Folder"/>
+				<Item Name="Wait On Boolean Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Wait On Boolean/Wait On Boolean Tests.lvlib"/>
+			</Item>
+			<Item Name="Wait Step" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
+				</Item>
+				<Item Name="Execution" Type="Folder">
+					<Item Name="Wait Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait Step/Execution/Wait Step.lvclass"/>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="Wait Tests.lvlib" Type="Library" URL="../../Prototype/basic steps/Wait Step/Test/Wait Tests.lvlib"/>
+					<Item Name="Wait Step To and From String Array Test.lvtest" Type="TestItem" URL="../../Prototype/basic steps/Wait Step/Test/Wait Step To and From String Array Test.lvtest">
+						<Property Name="utf.test.bind" Type="Str">Wait Tests.lvlib:To and From String Array Test.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">66D6BBEF-0342-AD32-1F46-4089B5C6DAD2</Property>
+					</Item>
+				</Item>
+				<Item Name="UI" Type="Folder">
+					<Item Name="Data Access" Type="Folder"/>
+					<Item Name="Glyph" Type="Folder">
+						<Item Name="delay.png" Type="Document" URL="../../Prototype/basic steps/Wait Step/UI/Glyph/delay.png"/>
+					</Item>
+					<Item Name="Wait Step UI.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait Step/UI/Wait Step UI.lvclass"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Configuration Tool.lvlib" Type="Library" URL="../Configuration Tool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -215,7 +327,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="TRef Get All FP References.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Get All FP References.vi"/>
 				<Item Name="UI Reference configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UI/configuration/UI Reference configuration.lvclass"/>
-				<Item Name="FPGA manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/FPGA manager/FPGA manager.lvlib"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -270,23 +381,6 @@
 			<Item Name="Sequence.lvclass" Type="LVClass" URL="../../Prototype/classes/Sequence/Execution/Sequence.lvclass"/>
 			<Item Name="Step Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Step/Config/Step Config.lvclass"/>
 			<Item Name="Sequence Config.lvclass" Type="LVClass" URL="../../Prototype/classes/Sequence/Config/Sequence Config.lvclass"/>
-			<Item Name="Comparison Types.ctl" Type="VI" URL="../../Prototype/basic steps/Numeric Limit Compare/Config/Comparison Types.ctl"/>
-			<Item Name="Numeric Limit Compare Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Numeric Limit Compare/Config/Numeric Limit Compare Config.lvclass"/>
-			<Item Name="Numeric Limit Compare.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Numeric Limit Compare/Runtime/Numeric Limit Compare.lvclass"/>
-			<Item Name="String Compare Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/String Compare/Config/String Compare Config.lvclass"/>
-			<Item Name="String Compare.lvclass" Type="LVClass" URL="../../Prototype/basic steps/String Compare/Runtime/String Compare.lvclass"/>
-			<Item Name="Update Tag Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Update Tag Step/Config/Update Tag Configuration/Update Tag Config.lvclass"/>
-			<Item Name="Update Tag.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Update Tag Step/Execution/Update Tag.lvclass"/>
-			<Item Name="Wait On Boolean Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait On Boolean/Config/Wait On Boolean Step Config.lvclass"/>
-			<Item Name="Wait On Boolean Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait On Boolean/Runtime/Wait On Boolean Step.lvclass"/>
-			<Item Name="Conditional Jump Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Conditional Jump Step/Config/Conditional Jump Step Config.lvclass"/>
-			<Item Name="Conditional Jump Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Conditional Jump Step/Execution/Conditional Jump Step.lvclass"/>
-			<Item Name="Counter Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Counter/Config/Counter Config.lvclass"/>
-			<Item Name="Counter.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Counter/Runtime/Counter.lvclass"/>
-			<Item Name="Parallel Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Parallel Step/Config/Parallel Step Config.lvclass"/>
-			<Item Name="Parallel Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Parallel Step/Execution/Parallel Step.lvclass"/>
-			<Item Name="Wait Step Config.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait Step/Config/Wait Step Config.lvclass"/>
-			<Item Name="Wait Step.lvclass" Type="LVClass" URL="../../Prototype/basic steps/Wait Step/Execution/Wait Step.lvclass"/>
 			<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../../Prototype/testing/Sequencer Module tests.lvlib"/>
 			<Item Name="Sequencer Module runtime.lvclass" Type="LVClass" URL="../../Prototype/module/execution/Sequencer Module runtime.lvclass"/>
 			<Item Name="Sequencer Module configuration.lvclass" Type="LVClass" URL="../../Prototype/module/configuration/Sequencer Module configuration.lvclass"/>
@@ -376,6 +470,85 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">My Editor</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3B1217BC-4607-4F89-AA52-A1A9E6516694}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Editor.exe</Property>
+			</Item>
+			<Item Name="Sequence Editor" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D16D282B-115B-4653-94E6-D2485E1B1827}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{14BC86F2-FDFA-42D9-B172-80113089BC62}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{149A62F4-773D-4ECC-A165-254781BD5042}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sequence Editor</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BCF9EF62-C5E9-45BA-9A03-5A00C4CA24C8}</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Editor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/Editor.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">App Folder</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/App Folder</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">Classes</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/Classes</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[4].destName" Type="Str">Glyphs</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/Glyphs</Property>
+				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[5].destName" Type="Str">Prototype</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/Prototype</Property>
+				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[6].destName" Type="Str">basic steps</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/Users/SE_User/Documents/Sequence Editor APP/Prototype/basic steps</Property>
+				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E77F37E-AB6C-48E8-9DF2-17B776D6C34B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Classes</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Glyphs</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Configuration Tool.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configuration Tool.lvlib/Sequence Editor Main.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/basic steps</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UI to edit sequences for Battery Test system</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sequence Editor</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">My Editor</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7A3F8427-7721-45C8-867A-FA67EB0EEDC7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Editor.exe</Property>
 			</Item>
 		</Item>
