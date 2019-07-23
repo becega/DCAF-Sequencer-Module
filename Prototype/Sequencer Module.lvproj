@@ -185,6 +185,11 @@
 				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 			</Item>
+			<Item Name="Wait On Integer" Type="Folder">
+				<Item Name="Wait On Integer Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Config/Wait On Integer Step Config.lvclass"/>
+				<Item Name="Wait On Integer Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Runtime/Wait On Integer Step.lvclass"/>
+				<Item Name="Wait on Integer Tests.lvlib" Type="Library" URL="../basic steps/Wait On Integer/Tests/Wait on Integer Tests.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
 		<Item Name="Sequencer Module editor node.lvclass" Type="LVClass" URL="../editor node/Sequencer Module editor node.lvclass"/>
