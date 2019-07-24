@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="To String and From String Array Test.vi" Type="VI" URL="../To String and From String Array Test.vi"/>
+	<Item Name="Wait on Integer Runtime Test.vi" Type="VI" URL="../Wait on Integer Runtime Test.vi"/>
 </Library>
