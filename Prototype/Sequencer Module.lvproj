@@ -186,8 +186,8 @@
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
 			</Item>
 			<Item Name="Wait On Integer" Type="Folder">
-				<Item Name="Wait On Integer Step Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Config/Wait On Integer Step Config.lvclass"/>
-				<Item Name="Wait On Integer Step.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Runtime/Wait On Integer Step.lvclass"/>
+				<Item Name="Wait On Integer Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Config/Wait On Integer Config.lvclass"/>
+				<Item Name="Wait On Integer.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Runtime/Wait On Integer.lvclass"/>
 				<Item Name="Wait on Integer Tests.lvlib" Type="Library" URL="../basic steps/Wait On Integer/Tests/Wait on Integer Tests.lvlib"/>
 			</Item>
 		</Item>
