@@ -1,0 +1,26 @@
+PE_Regulation_Modes	1.0.0.0	Test					
+Update Tag	FALSE	CPE1		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE1		Wait on PE Regulation State	U8	5000	0
+Wait Step	FALSE	WT1		3000			
+Update Tag	FALSE	CPE2		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE2		Wait on PE Regulation State	U8	5000	2
+Wait Step	FALSE	WT2		3000			
+Update Tag	FALSE	CPE3		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE3		Wait on PE Regulation State	U8	5000	4
+Wait Step	FALSE	WT3		3000			
+Update Tag	FALSE	CPE4		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE4		Wait on PE Regulation State	U8	5000	6
+Wait Step	FALSE	WT4		3000			
+Update Tag	FALSE	CPE5		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE5		Wait on PE Regulation State	U8	5000	6
+Wait Step	FALSE	WT5		3000			
+Update Tag	FALSE	CPE6		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE6		Wait on PE Regulation State	U8	5000	4
+Wait Step	FALSE	WT6		3000			
+Update Tag	FALSE	CPE7		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE7		Wait on PE Regulation State	U8	5000	2
+Wait Step	FALSE	WT7		3000			
+Update Tag	FALSE	CPE8		Command PE Regulation State 	U8	0	
+Wait On Integer	FALSE	WPE8		Wait on PE Regulation State	U8	5000	0
+Wait Step	FALSE	WT8		3000			
+---------							

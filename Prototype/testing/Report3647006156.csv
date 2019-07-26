@@ -1,0 +1,29 @@
+Result,,,,,,
+,,,,,,
+,,,,,,
+Step Name,Step Class,Low Limit,Measurement,High Limit,Comparison,Duration
+CPE1,Update Tag,,,,CPE1,0.000000
+WPE1,Wait On Integer,,,,WPE1,0.000000
+WT1,Wait Step,,,,WT1,3.000002
+CPE2,Update Tag,,,,CPE2,0.000000
+WPE2,Wait On Integer,,,,WPE2,0.000993
+WT2,Wait Step,,,,WT2,3.000047
+CPE3,Update Tag,,,,CPE3,0.000000
+WPE3,Wait On Integer,,,,WPE3,0.000000
+WT3,Wait Step,,,,WT3,2.999125
+CPE4,Update Tag,,,,CPE4,0.000000
+WPE4,Wait On Integer,,,,WPE4,0.000000
+WT4,Wait Step,,,,WT4,3.099002
+CPE5,Update Tag,,,,CPE5,0.000000
+WPE5,Wait On Integer,,,,WPE5,0.000000
+WT5,Wait Step,,,,WT5,3.099007
+CPE6,Update Tag,,,,CPE6,0.000000
+WPE6,Wait On Integer,,,,WPE6,0.000000
+WT6,Wait Step,,,,WT6,3.100040
+CPE7,Update Tag,,,,CPE7,0.000000
+WPE7,Wait On Integer,,,,WPE7,0.000000
+WT7,Wait Step,,,,WT7,3.000001
+CPE8,Update Tag,,,,CPE8,0.000000
+WPE8,Wait On Integer,,,,WPE8,0.000000
+WT8,Wait Step,,,,WT8,3.100001
+,Step,,,,,0.000000

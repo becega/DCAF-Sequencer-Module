@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -184,6 +184,11 @@
 				<Item Name="Counter Tests.lvlib" Type="Library" URL="../basic steps/Counter/Tests/Counter Tests.lvlib"/>
 				<Item Name="Counter Config.lvclass" Type="LVClass" URL="../basic steps/Counter/Config/Counter Config.lvclass"/>
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../basic steps/Counter/Runtime/Counter.lvclass"/>
+			</Item>
+			<Item Name="Wait On Integer" Type="Folder">
+				<Item Name="Wait On Integer Config.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Config/Wait On Integer Config.lvclass"/>
+				<Item Name="Wait On Integer.lvclass" Type="LVClass" URL="../basic steps/Wait On Integer/Runtime/Wait On Integer.lvclass"/>
+				<Item Name="Wait on Integer Tests.lvlib" Type="Library" URL="../basic steps/Wait On Integer/Tests/Wait on Integer Tests.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Sequencer Module tests.lvlib" Type="Library" URL="../testing/Sequencer Module tests.lvlib"/>
