@@ -1,0 +1,11 @@
+Result,,,,,,
+,,,,,,
+,,,,,,
+Step Name,Step Class,Low Limit,Measurement,High Limit,Comparison,Duration
+,Update Tag,,,,,0.000000
+,Wait On Integer,,,,,0.000000
+,Wait Step,,,,,3.000118
+,Update Tag,,,,,0.000000
+,Wait On Integer,,,,,0.000000
+,Wait Step,,,,,2.999946
+,Update Tag,,,,,0.000000
