@@ -5,7 +5,7 @@
 
 def utfPaths = ["Prototype\\Sequencer Module.lvproj"]
 def vipbPaths = ["Prototype\\DCAF SEQUENCER PROTO.vipb"]
-def lvVersion = "15.0"
+def lvVersion = "18.0"
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
 dcafPipeline(utfPaths,vipbPaths,lvVersion)
